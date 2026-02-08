@@ -4,7 +4,7 @@
   "name": "Meteoric Steel Armors for Forgotten Armory",
   "authors": [ "Uncle Lucky", "Dietzee" ],
   "description": "Meteoric Steel armor compatibility for Varangian and Templar armor, credit to Dietzee for textures",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "dependencies": {
     "game": "",
 	"meteoricsteel": "",

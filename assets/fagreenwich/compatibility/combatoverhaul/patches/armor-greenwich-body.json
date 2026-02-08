@@ -1,0 +1,106 @@
+[
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fagreenwich" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-greenwich-body-steel-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 8,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.18,
+              "steadyAim": -0.23,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.15
+            }
+          },
+		  "fa-greenwich-body-meteoricsteel-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 10,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.18,
+              "steadyAim": -0.23,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.15
+            }
+          },
+          "fa-greenwich-body-*iron-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 6
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.18,
+              "steadyAim": -0.23,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.15
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fagreenwich" }],
+    "value": {
+        "fa-greenwich-body-steel-*": 35000,
+        "fa-greenwich-body-meteoriciron-*": 18000,
+        "fa-greenwich-body-iron-*": 15000,
+		"fa-greenwich-body-meteoricsteel-*": 45000
+    }
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fagreenwich" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fagreenwich" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fagreenwich" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fagreenwich" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-body-*": 16 }
+  }
+]

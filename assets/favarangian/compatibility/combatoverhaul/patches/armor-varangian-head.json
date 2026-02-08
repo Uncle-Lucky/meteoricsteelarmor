@@ -1,0 +1,161 @@
+[
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-varangian-head-heavy-*-meteoricsteel-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 11,
+              "SlashingAttack": 9,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.12,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.15
+            }
+          },
+          "fa-varangian-head-light-*-meteoricsteel-*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 9,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.06,
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.10
+            }
+          },
+          "fa-varangian-head-heavy-*-steel*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.12,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.15
+            }
+          },
+          "fa-varangian-head-heavy-*-*iron*": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.12,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.15
+            }
+          },
+          "fa-varangian-head-light-*-steel*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.06,
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.10
+            }
+          },
+          "fa-varangian-head-light-*iron*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.06,
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.10
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "value": {
+      "*heavy*meteoricsteel*": 18750,
+      "*light*meteoricsteel*": 11500,
+      "*heavy*steel*": 13000,
+      "*heavy*meteoriciron*": 7500,
+      "*heavy*iron*": 6200,
+      "*light*steel*": 8000,
+      "*light*meteoriciron*": 6500,
+      "*light*iron*": 5000
+    }
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-head-*": 8 }
+  }
+]

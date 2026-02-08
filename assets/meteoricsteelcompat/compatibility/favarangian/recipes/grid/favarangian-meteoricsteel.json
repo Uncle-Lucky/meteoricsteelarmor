@@ -1,0 +1,410 @@
+[
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-body-heavy-body1-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Heavy body1 repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-body-heavy-body1-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-body-heavy-body2-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Heavy body2 repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-body-heavy-body2-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-body-heavy-body3-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Heavy body3 repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-body-heavy-body3-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-body-light-body1-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Light body repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-body-light-body1-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-legs-heavy-meteoricsteel-none"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoricsteel"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Heavy Legs Repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-legs-heavy-meteoricsteel-none"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-legs-light-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Light legs repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-legs-light-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-head-heavy-wingedhead-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Heavy wingedhead repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-head-heavy-wingedhead-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-head-heavy-cristasidehead-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Heavy cristasidehead repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-head-heavy-cristasidehead-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-head-heavy-cristahead-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Heavy cristahead repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-head-heavy-cristahead-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-head-light-wingedhead-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Light wingedhead repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-head-light-wingedhead-meteoricsteel-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "BL,P_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "favarangian:fa-varangian-head-light-cristahead-meteoricsteel-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white",
+          "none"
+        ]
+      },
+      "P": { "type": "item", "code": "game:metalplate-meteoricsteel" },
+      "L": { "type": "item", "code": "game:leather-normal-plain" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "Varangian Light cristahead repair",
+    "output": {
+      "type": "item",
+      "code": "favarangian:fa-varangian-head-light-cristahead-meteoricsteel-{color}"
+    }
+  }
+]

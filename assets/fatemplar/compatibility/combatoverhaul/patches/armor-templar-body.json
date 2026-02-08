@@ -1,0 +1,128 @@
+[
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"op": "addmerge",
+		"path": "/behaviors",
+		"dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fatemplar" }],
+		"value": [
+			{
+				"name": "CombatOverhaul:Armor",
+				"propertiesByType": {
+					"fa-templar-body-heavy-meteoricsteel-*bear*": {
+						"Layers": ["Outer"],
+						"Zones": ["Torso", "Arms", "Hands"],
+						"Resists": {
+							"PiercingAttack": 11,
+							"SlashingAttack": 9,
+							"BluntAttack": 9
+						},
+						"FlatReduction": {},
+						"PlayerStats": {
+							"walkspeed": -0.06,
+							"manipulationSpeed": -0.20,
+							"steadyAim": -0.30,
+							"healingeffectivness": -0.04,
+							"hungerrate": 0.04
+						}
+					},
+					"fa-templar-body-balance-meteoricsteel-*bear*": {
+						"Layers": ["Outer", "Middle"],
+						"Zones": ["Torso", "Arms", "Hands"],
+						"Resists": {
+							"PiercingAttack": 9,
+							"SlashingAttack": 9,
+							"BluntAttack": 7
+						},
+						"FlatReduction": {},
+						"PlayerStats": {
+							"walkspeed": -0.05,
+							"manipulationSpeed": -0.08,
+							"steadyAim": -0.17,
+							"healingeffectivness": -0.04,
+							"hungerrate": 0.04
+						}
+					},
+					"fa-templar-body-light-meteoricsteel-*bear*": {
+						"Layers": ["Outer", "Middle"],
+						"Zones": ["Torso", "Arms", "Hands"],
+						"Resists": {
+							"PiercingAttack": 7,
+							"SlashingAttack": 7,
+							"BluntAttack": 6
+						},
+						"FlatReduction": {},
+						"PlayerStats": {
+							"walkspeed": -0.03,
+							"manipulationSpeed": -0.04,
+							"steadyAim": -0.06,
+							"healingeffectivness": -0.03,
+							"hungerrate": 0.03
+						}
+					},
+					"fa-templar-body-heavy-meteoricsteel-*": {
+						"Layers": ["Outer"],
+						"Zones": ["Torso", "Arms", "Hands"],
+						"Resists": {
+							"PiercingAttack": 11,
+							"SlashingAttack": 9,
+							"BluntAttack": 9
+						},
+						"FlatReduction": {},
+						"PlayerStats": {
+							"walkspeed": -0.04,
+							"manipulationSpeed": -0.20,
+							"steadyAim": -0.30,
+							"healingeffectivness": -0.04,
+							"hungerrate": 0.04
+						}
+					},
+					"fa-templar-body-balance-meteoricsteel-*": {
+						"Layers": ["Outer", "Middle"],
+						"Zones": ["Torso", "Arms", "Hands"],
+						"Resists": {
+							"PiercingAttack": 9,
+							"SlashingAttack": 9,
+							"BluntAttack": 7
+						},
+						"FlatReduction": {},
+						"PlayerStats": {
+							"walkspeed": -0.03,
+							"manipulationSpeed": -0.08,
+							"steadyAim": -0.17,
+							"healingeffectivness": -0.04,
+							"hungerrate": 0.04
+						}
+					},
+					"fa-templar-body-light-meteoricsteel-*": {
+						"Layers": ["Outer", "Middle"],
+						"Zones": ["Torso", "Arms", "Hands"],
+						"Resists": {
+							"PiercingAttack": 7,
+							"SlashingAttack": 7,
+							"BluntAttack": 6
+						},
+						"FlatReduction": {},
+						"PlayerStats": {
+							"walkspeed": -0.01,
+							"manipulationSpeed": -0.04,
+							"steadyAim": -0.06,
+							"healingeffectivness": -0.03,
+							"hungerrate": 0.03
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "fatemplar" }],
+		"value": {
+			"fa-templar-body-heavy-meteoricsteel-*": 56000,
+			"fa-templar-body-balance-meteoricsteel-*": 45000,
+			"fa-templar-body-light-meteoricsteel-*": 28000
+		}
+	}
+]

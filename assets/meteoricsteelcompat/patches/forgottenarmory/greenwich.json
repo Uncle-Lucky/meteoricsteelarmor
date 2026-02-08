@@ -1,0 +1,159 @@
+[
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"fa-greenwich-body-meteoricsteel-*": {
+				"seraph": { "base": "game:block/transparent" },
+				"greenwichbody": { "base": "armor/entity/greenwich_{metalbody}" },
+				"textile": { "base": "block/textiles/textile{textile}" }
+			}
+		}
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 1.95,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 8250 }
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-body-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-body-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+
+
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 1.95,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "meteoricsteel": 8250 }
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-head-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-head-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-head-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-head-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/11/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	
+
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 1.95,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "meteoricsteel": 8250 }
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-legs-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fagreenwich:recipes/grid/armor/fa-greenwich-legs-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fagreenwich" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+]

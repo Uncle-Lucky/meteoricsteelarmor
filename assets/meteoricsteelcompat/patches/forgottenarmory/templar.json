@@ -1,0 +1,500 @@
+[
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/allowedVariants",
+		"value": [ "fa-templar-body-heavy-meteoricsteel-*" ]
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/skipVariants",
+		"value": [ "fa-templar-body-heavy-meteoricsteel-none" ]
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"fa-templar-body-*-meteoricsteel-*bear*": {
+				"seraph": { "base": "game:block/transparent" },
+				"templarbody": { "base": "armor/entity/templar_{type}_meteoricsteel" },
+				"textile": { "base": "game:entity/humanoid/serapharmor/hide/bear/{textile}" }
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"fa-templar-body-*-meteoricsteel-*": {
+				"seraph": { "base": "game:block/transparent" },
+				"templarbody": { "base": "armor/entity/templar_{type}_meteoricsteel" },
+				"textile": { "base": "block/textiles/textile{textile}" }
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-light-meteoricsteel-*": {
+				"relativeProtection": 0.87,
+				"flatDamageReduction": 1.45,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			},
+			"*-balance-meteoricsteel-*": {
+				"relativeProtection": 0.93,
+				"flatDamageReduction": 2.65,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			},
+			"*-heavy-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 3.1,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": {
+			"*-heavy-meteoricsteel-*": 14000,
+			"*-balance-meteoricsteel-*": 9000,
+			"*-light-meteoricsteel-*": 5000
+		}
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-body-heavy-plain-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-body-heavy-plain-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-body-heavy-plain-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-body-heavy-plain-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+
+
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"fa-templar-head-*-meteoricsteel-*bear*": {
+				"seraph": { "base": "game:block/transparent" },
+				"templarhead": { "base": "armor/entity/templar_helmets_meteoricsteel" },
+				"plume": { "base": "game:entity/humanoid/serapharmor/hide/bear/{plume}" }
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"fa-templar-head-*-meteoricsteel-*": {
+				"seraph": { "base": "game:block/transparent" },
+				"templarhead": { "base": "armor/entity/templar_helmets_meteoricsteel" },
+				"plume": { "base": "block/plume/plume{plume}" }
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-pothelmlight-meteoricsteel-*": {
+				"relativeProtection": 0.87,
+				"flatDamageReduction": 1.45,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			},
+			"*-pothelmheavy-meteoricsteel-*": {
+				"relativeProtection": 0.93,
+				"flatDamageReduction": 2.65,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			},
+			"*-greathelm*-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 3.1,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": {
+			"*-greathelm*-meteoricsteel-*": 14000,
+			"*-pothelmheavy-meteoricsteel-*": 9000,
+			"*-pothelmlight-meteoricsteel-*": 5000
+		}
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-head-greathelm-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-head-greathelm-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-head-greathelm-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-head-greathelm-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+
+
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"fa-templar-legs-*-meteoricsteel-*bear*": {
+				"seraph": { "base": "game:block/transparent" },
+				"templarlegs": { "base": "armor/entity/templar_{look}_meteoricsteel" },
+				"line": { "base": "game:entity/humanoid/serapharmor/hide/bear/{line}" }
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"fa-templar-legs-*-meteoricsteel-*": {
+				"seraph": { "base": "game:block/transparent" },
+				"templarlegs": { "base": "armor/entity/templar_{look}_meteoricsteel" },
+				"line": { "base": "block/lines/line{line}" }
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-light-meteoricsteel-*": {
+				"relativeProtection": 0.87,
+				"flatDamageReduction": 1.45,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			},
+			"*-balance-meteoricsteel-*": {
+				"relativeProtection": 0.93,
+				"flatDamageReduction": 2.65,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			},
+			"*-heavy-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 3.1,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": {
+			"*-heavy-meteoricsteel-*": 14000,
+			"*-balance-meteoricsteel-*": 9000,
+			"*-light-meteoricsteel-*": 5000
+		}
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/heavy/fa-templar-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+
+
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-body-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-body-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-body-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-body-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-head-pothelmheavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-legs-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-legs-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-legs-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/balance/fa-templar-legs-balance-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+
+
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-head-pothelmlight-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-head-pothelmlight-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-head-pothelmlight-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-head-pothelmlight-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "fatemplar:recipes/grid/armor/light/fa-templar-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "fatemplar" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	}
+]

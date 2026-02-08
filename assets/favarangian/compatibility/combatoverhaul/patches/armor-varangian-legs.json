@@ -1,0 +1,161 @@
+[
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-varangian-legs-heavy-meteoricsteel*": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 11,
+              "SlashingAttack": 9,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.08,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          },
+          "fa-varangian-legs-light-meteoricsteel*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 9,
+              "BluntAttack": 9
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.06,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          },
+          "fa-varangian-legs-heavy-steel*": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 10,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.08,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          },
+          "fa-varangian-legs-heavy*iron*": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 9,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.08,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
+            }
+          },
+          "fa-varangian-legs-light-steel*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 8,
+              "BluntAttack": 8
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.06,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          },
+          "fa-varangian-legs-light*iron*": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.06,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "value": {
+      "*heavy*meteoricsteel*": 32500,
+      "*light*meteoricsteel*": 20000,
+      "*heavy*steel*": 25000,
+      "*heavy*meteoric*": 13000,
+      "*heavy*iron*": 10500,
+      "*light*steel*": 15000,
+      "*light*meteoric*": 11000,
+      "*light*iron*": 8000
+    }
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }, { "modId": "favarangian" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-legs-*": 8 }
+  }
+]

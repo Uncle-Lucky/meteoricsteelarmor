@@ -1,0 +1,448 @@
+[
+	{
+		ingredientPattern: "FBF,DED,IGI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"D": { type: "item", code: "game:metalplate-meteoricsteel", quantity: 3 },
+			"E": { type: "item", code: "game:armor-body-plate-meteoricsteel" },
+			"F": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 6 },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 },
+			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 6 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel plate body heavy",
+		output: { type: "item", code: "fatemplar:fa-templar-body-heavy-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fatemplar:fa-templar-body-heavy-meteoricsteel-*" },
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100 },
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100 },
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 2,
+		name: "templar meteoricsteel heavy body deplume",
+		output: { type: "item", code: "fatemplar:fa-templar-body-heavy-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-body-heavy-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white","none","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel heavy body repair",
+		output: { type: "item", code: "fatemplar:fa-templar-body-heavy-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "FBF,DED,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"D": { type: "item", code: "game:metalplate-meteoricsteel", quantity: 2 },
+			"E": { type: "item", code: "game:armor-body-scale-meteoricsteel" },
+			"F": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 4 },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel balance body",
+		output: { type: "item", code: "fatemplar:fa-templar-body-balance-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fatemplar:fa-templar-body-balance-meteoricsteel-*" },
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100 },
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100 },
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 2,
+		name: "templar meteoricsteel balance body deplume",
+		output: { type: "item", code: "fatemplar:fa-templar-body-balance-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-body-balance-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white","none","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel balance body repair",
+		output: { type: "item", code: "fatemplar:fa-templar-body-balance-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "FBF,DED,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"D": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"E": { type: "item", code: "game:armor-body-chain-meteoricsteel" },
+			"F": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2 },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel light body",
+		output: { type: "item", code: "fatemplar:fa-templar-body-light-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fatemplar:fa-templar-body-light-meteoricsteel-*" },
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100 },
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100 },
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 2,
+		name: "templar meteoricsteel light body deplume",
+		output: { type: "item", code: "fatemplar:fa-templar-body-light-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-body-light-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white","none","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel light body repair",
+		output: { type: "item", code: "fatemplar:fa-templar-body-light-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "B_B,DED,GHI",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2 },
+			"D": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"E": { type: "item", code: "game:armor-head-plate-meteoricsteel" },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 },
+			"H": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"I": { type: "item", code: "game:leather-sturdy-plain", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel greathelm",
+		output: { type: "item", code: "fatemplar:fa-templar-head-greathelm-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fatemplar:fa-templar-head-greathelm*-meteoricsteel-*" },
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100 },
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100 },
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 2,
+		name: "templar meteoricsteel greathelm deplume",
+		output: { type: "item", code: "fatemplar:fa-templar-head-greathelm-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-head-greathelm-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel greathelm repair",
+		output: { type: "item", code: "fatemplar:fa-templar-head-greathelm-meteoricsteel-{color}" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-head-greathelmwinged-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel greathelm winged repair",
+		output: { type: "item", code: "fatemplar:fa-templar-head-greathelmwinged-meteoricsteel-{color}" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-head-greathelmwreath-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel greathelm wreath repair",
+		output: { type: "item", code: "fatemplar:fa-templar-head-greathelmwreath-meteoricsteel-{color}" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-head-greathelmcrista-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel greathelm crista repair",
+		output: { type: "item", code: "fatemplar:fa-templar-head-greathelmcrista-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "_BF,DED,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-head-scale-meteoricsteel" },
+			"D": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"E": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"F": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2 },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel pothelm heavy",
+		output: { type: "item", code: "fatemplar:fa-templar-head-pothelmheavy-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fatemplar:fa-templar-head-pothelmheavy-meteoricsteel-*" },
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100 },
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100 },
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 2,
+		name: "templar meteoricsteel pothelm heavy deplume",
+		output: { type: "item", code: "fatemplar:fa-templar-head-pothelmheavy-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-head-pothelmheavy-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white","none","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel pothelm heavy repair",
+		output: { type: "item", code: "fatemplar:fa-templar-head-pothelmheavy-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "BDF,_E_,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"D": { type: "item", code: "game:armor-head-chain-meteoricsteel" },
+			"E": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"F": { type: "item", code: "game:metalnailsandstrips-gold" },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel pothelm light",
+		output: { type: "item", code: "fatemplar:fa-templar-head-pothelmlight-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-head-pothelmlight-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel pothelm light repair",
+		output: { type: "item", code: "fatemplar:fa-templar-head-pothelmlight-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "_BF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-plate-meteoricsteel" },
+			"C": { type: "item", code: "game:metalplate-meteoricsteel", quantity: 2 },
+			"D": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"E": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2 },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 },
+			"F": { type: "item", code: "game:leather-sturdy-plain", quantity: 4 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel heavy legs",
+		output: { type: "item", code: "fatemplar:fa-templar-legs-heavy-meteoricsteel-none" }
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fatemplar:fa-templar-legs-heavy-meteoricsteel-*" },
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100 },
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100 },
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 2,
+		name: "templar meteoricsteel heavy legs deplume",
+		output: { type: "item", code: "fatemplar:fa-templar-legs-heavy-meteoricsteel-none" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-legs-heavy-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","blue","red","yellow","green","purple","pink","orange","brown","gray","black","white","none","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel heavy legs repair",
+		output: { type: "item", code: "fatemplar:fa-templar-legs-heavy-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "_BF,CDC,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-scale-meteoricsteel" },
+			"C": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"D": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"F": { type: "item", code: "game:metalnailsandstrips-gold", quantity: 2 },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel balance legs",
+		output: { type: "item", code: "fatemplar:fa-templar-legs-balance-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-legs-balance-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel balance legs repair",
+		output: { type: "item", code: "fatemplar:fa-templar-legs-balance-meteoricsteel-{color}" }
+	},
+
+	{
+		ingredientPattern: "_BF,CDC,_G_",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:armor-legs-chain-meteoricsteel" },
+			"C": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"D": { type: "item", code: "fatemplar:fa-templar-schematic", returnedStack: { "type": "item", "code": "fatemplar:fa-templar-schematic" } },
+			"F": { type: "item", code: "game:metalnailsandstrips-gold" },
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100 }
+		},
+		width: 3,
+		height: 3,
+		name: "templar meteoricsteel light legs",
+		output: { type: "item", code: "fatemplar:fa-templar-legs-light-meteoricsteel-plain" }
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fatemplar:fa-templar-legs-light-meteoricsteel-*",
+				name: "color", allowedVariants: ["plain","bear-black","bear-brown","bear-polar"]
+			},
+			"P": { type: "item", code: "game:metalplate-meteoricsteel" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "templar meteoricsteel light legs repair",
+		output: { type: "item", code: "fatemplar:fa-templar-legs-light-meteoricsteel-{color}" }
+	}
+]

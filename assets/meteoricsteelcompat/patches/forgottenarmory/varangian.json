@@ -1,0 +1,462 @@
+[
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*heavy*meteoricsteel*": {
+				"seraph": { "base": "game:block/transparent" },
+				"varangianbody": { "base": "armor/entity/heavy/varangian_heavy_meteoricsteel" },
+				"textile": { "base": "game:block/textiles/textile{textile}" }
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*light*meteoricsteel*": {
+				"seraph": { "base": "game:block/transparent" },
+				"varangianbody": { "base": "armor/entity/light/varangian_light_meteoricsteel" },
+				"textile": { "base": "game:block/textiles/textile{textile}" }
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 1.95,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-body",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 8250 }
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-body-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-body-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+
+
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*heavy*meteoricsteel*": {
+				"seraph": { "base": "game:block/transparent" },
+				"varangianhead": { "base": "armor/entity/heavy/varangian_heavy_meteoricsteel" },
+				"plume": { "base": "block/plume/plume{plume}" }
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*light*meteoricsteel*": {
+				"seraph": { "base": "game:block/transparent" },
+				"varangianhead": { "base": "armor/entity/light/varangian_light_meteoricsteel" },
+				"plume": { "base": "block/plume/plume{plume}" }
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 1.95,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-head",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 8250 }
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-head-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-head-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-head-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-head-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-head-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-head-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+
+
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*heavy*meteoricsteel*": {
+				"seraph": { "base": "game:block/transparent" },
+				"varangianlegs": { "base": "armor/entity/heavy/varangian_heavy_meteoricsteel" },
+				"line": { "base": "block/lines/line{line}" }
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*light*meteoricsteel*": {
+				"seraph": { "base": "game:block/transparent" },
+				"varangianlegs": { "base": "armor/entity/light/varangian_light_meteoricsteel" },
+				"line": { "base": "block/lines/line{line}" }
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/attributes/protectionModifiersByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"relativeProtection": 0.98,
+				"flatDamageReduction": 1.95,
+				"highDamageTierResistant": true,
+				"protectionTier": 4
+			}
+		}
+	},
+	{
+		"file": "favarangian:itemtypes/wearable/varangian/fa-varangian-legs",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" }, { "modid": "combatoverhaul", "invert": true } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 8250 }
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/heavy/fa-varangian-legs-heavy-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/D/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/E/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "favarangian:recipes/grid/armor/light/fa-varangian-legs-light-recipe",
+		"dependsOn": [ { "modid": "meteoricsteel" }, { "modid": "favarangian" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	}
+]
